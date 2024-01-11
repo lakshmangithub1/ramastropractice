@@ -1,0 +1,51 @@
+/* PersonalQuestions.css */
+.personal-questions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .questions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .question {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .navigation-arrows {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .arrow {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .back {
+    order: -1; /* Move back arrow to the left */
+  }
+  
+  /* Add more styling as needed */
+  
